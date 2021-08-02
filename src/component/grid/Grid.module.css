@@ -1,3 +1,4 @@
+/*
 .gridContainer {
     width: 90vw;
     height: 90vh;
@@ -16,4 +17,45 @@
     text-align: center;
     border: 2px dashed gray;
     padding: 30px;
+}*/
+
+
+.gridContainer {
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: "header header"
+                        "side content";
+   /* grid-template:
+        [start] "header header" 100px [row2]
+        [row2] "side content" 1fr [row-end] / 150px 1fr;*/
 }
+
+
+.header, .side, .content{
+    padding: 30px;
+    border: 2px dashed gray;
+    margin: 0px 0px 15px 0px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.side {
+    grid-area: side;
+}
+
+.content {
+    grid-area: content;
+}
+
+

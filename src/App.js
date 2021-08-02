@@ -1,10 +1,10 @@
 import React from "react";
-import './App.css';
+import s from "./App.module.css"
 import {Grid} from "./component/grid/Grid";
 
 function App() {
   return (
-    <div className="App">
+    <div className={s.app}>
       <Grid/>
     </div>
   );

@@ -1,3 +1,89 @@
+.wrapper {
+
+}
+
+/*header*/
+.header {
+
+}
+
+.headerLogo {
+
+}
+
+.headerMenu {
+
+}
+
+.headerList {
+
+}
+
+.headerLink {
+
+}
+
+.headerBurger {
+
+}
+/**/
+
+/*main*/
+.main {
+
+}
+
+.sidebar {
+
+}
+
+.content {
+
+}
+
+.sideMenu {
+
+}
+
+.sidebarMenu {
+
+}
+
+.sidebarLink {
+
+}
+
+.contentTitle {
+
+}
+
+.contentGallery {
+
+}
+
+.gallery {
+
+}
+
+.galleryTitle {
+
+}
+
+.galleryItems {
+
+}
+
+.galleryItem {
+
+}
+
+/*footer*/
+.footer {
+
+}
+
+
+
 /*
 .gridContainer {
     width: 90vw;
@@ -20,7 +106,7 @@
 }*/
 
 
-.gridContainer {
+/*.gridContainer {
     width: 90vw;
     height: 90vh;
     border: 1px solid;
@@ -34,9 +120,9 @@
     grid-template-rows: 100px 1fr;
     grid-template-areas: "header header"
                         "side content";
-   /* grid-template:
+   !* grid-template:
         [start] "header header" 100px [row2]
-        [row2] "side content" 1fr [row-end] / 150px 1fr;*/
+        [row2] "side content" 1fr [row-end] / 150px 1fr;*!
 }
 
 
@@ -56,6 +142,7 @@
 
 .content {
     grid-area: content;
-}
+}*/
+
 
 

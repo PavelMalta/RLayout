@@ -1,5 +1,11 @@
 import React from "react";
 import s from "./Grid.module.css"
+import image1 from "../../common/image/image1.jpg"
+import image2 from "../../common/image/5045e.jpg"
+import image3 from "../../common/image/5045e2.jpg"
+import image4 from "../../common/image/5045e_.jpg"
+import image5 from "../../common/image/mfwdtractor-9.jpg"
+import image6 from "../../common/image/5065e.jpg"
 
 export const Grid = () => {
     return (
@@ -50,7 +56,24 @@ export const Grid = () => {
                     <section className={`${s.contentGallery} ${s.gallery}`}>
                         <h2 className={s.galleryTitle}>Gallery</h2>
                         <div className={s.galleryItems}>
-                            <div className={s.galleryItem}></div>
+                            <div className={s.galleryItem}>
+                                <img src={image1} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image2} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image3} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image4} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image5} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image6} alt=""/>
+                            </div>
                         </div>
                     </section>
                 </section>

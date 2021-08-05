@@ -6,6 +6,7 @@ import image3 from "../../common/image/5045e2.jpg"
 import image4 from "../../common/image/5045e_.jpg"
 import image5 from "../../common/image/mfwdtractor-9.jpg"
 import image6 from "../../common/image/5065e.jpg"
+import buyJD from "../../common/image/buyJD.jpg"
 
 export const Grid = () => {
     return (
@@ -76,10 +77,57 @@ export const Grid = () => {
                             </div>
                         </div>
                     </section>
+                    <div className={`${s.contentProducts} ${s.products}`}>
+                        <h2 className={s.productsTitle}>Goods</h2>
+                        <div className={s.productsItems}>
+                            <div className={s.productsItem}>
+                                <a href="" className={s.productsImage}>
+                                    <img src={buyJD} alt=""/>
+                                </a>
+                                <a href="" className={s.productsName}>John Deere 5045</a>
+                                <a href="" className={s.productsButton}>Buy</a>
+                            </div>
+                            <div className={s.productsItem}>
+                                <a href="" className={s.productsImage}>
+                                    <img src={buyJD} alt=""/>
+                                </a>
+                                <a href="" className={s.productsName}>John Deere 5045</a>
+                                <a href="" className={s.productsButton}>Buy</a>
+                            </div>
+                            <div className={s.productsItem}>
+                                <a href="" className={s.productsImage}>
+                                    <img src={buyJD} alt=""/>
+                                </a>
+                                <a href="" className={s.productsName}>John Deere 5045</a>
+                                <a href="" className={s.productsButton}>Buy</a>
+                            </div>
+                            <div className={s.productsItem}>
+                                <a href="" className={s.productsImage}>
+                                    <img src={buyJD} alt=""/>
+                                </a>
+                                <a href="" className={s.productsName}>John Deere 5045</a>
+                                <a href="" className={s.productsButton}>Buy</a>
+                            </div>
+                            <div className={s.productsItem}>
+                                <a href="" className={s.productsImage}>
+                                    <img src={buyJD} alt=""/>
+                                </a>
+                                <a href="" className={s.productsName}>John Deere 5045</a>
+                                <a href="" className={s.productsButton}>Buy</a>
+                            </div>
+                            <div className={s.productsItem}>
+                                <a href="" className={s.productsImage}>
+                                    <img src={buyJD} alt=""/>
+                                </a>
+                                <a href="" className={s.productsName}>John Deere 5045</a>
+                                <a href="" className={s.productsButton}>Buy</a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </main>
             <footer className={s.footer}>
-
+                
             </footer>
         </div>
 
@@ -91,16 +139,16 @@ export const Grid = () => {
             <div className={s.item}>5</div>
             <div className={s.item}>6</div>
         </div>*/
-       /* <div className={s.gridContainer}>
-            <header className={s.header}>
-                Шапка
-            </header>
-            <aside className={s.side}>
-                Сайдбар
-            </aside>
-            <main className={s.content}>
-                Контент
-            </main>
-        </div>*/
+        /* <div className={s.gridContainer}>
+             <header className={s.header}>
+                 Шапка
+             </header>
+             <aside className={s.side}>
+                 Сайдбар
+             </aside>
+             <main className={s.content}>
+                 Контент
+             </main>
+         </div>*/
     )
 }

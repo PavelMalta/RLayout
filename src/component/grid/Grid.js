@@ -127,7 +127,12 @@ export const Grid = () => {
                 </section>
             </main>
             <footer className={s.footer}>
-                
+                <div className={s.footerCopy}>
+                    Copy, 2021
+                </div>
+                <div className={s.footerText}>
+                    Buy John Deere and be cool!
+                </div>
             </footer>
         </div>
 

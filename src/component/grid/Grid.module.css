@@ -14,7 +14,7 @@
     padding: 15px;
     background-color: #367c2b;
     display: grid;
-    grid-template: 1fr / 1fr minmax(auto, 200px) minmax(auto, 700px) 1fr;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
 }
 
 .headerLogo {
@@ -58,7 +58,7 @@
     grid-area: main;
     padding: 30px 15px;
     display: grid;
-    grid-template: 1fr / 1fr minmax(auto, 200px) minmax(auto, 700px) 1fr;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
 }
 
 .sidebar {
@@ -99,7 +99,8 @@
 }
 
 .gallery {
-
+    display: grid;
+    gap: 10px;
 }
 
 .galleryTitle {
@@ -107,11 +108,28 @@
 }
 
 .galleryItems {
-
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .galleryItem {
+    position: relative;
+    padding-bottom: 85%;
+}
 
+.galleryItem img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galleryItemBig {
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .contentProducts {

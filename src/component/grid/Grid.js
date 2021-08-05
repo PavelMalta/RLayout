@@ -6,6 +6,10 @@ import image3 from "../../common/image/5045e2.jpg"
 import image4 from "../../common/image/5045e_.jpg"
 import image5 from "../../common/image/mfwdtractor-9.jpg"
 import image6 from "../../common/image/5065e.jpg"
+import image7 from "../../common/image/b81.jpg"
+import image8 from "../../common/image/eis-5.jpg"
+import image9 from "../../common/image/f6.jpg"
+import image10 from "../../common/image/img.jpg"
 import buyJD from "../../common/image/buyJD.jpg"
 
 export const Grid = () => {
@@ -57,8 +61,8 @@ export const Grid = () => {
                     <section className={`${s.contentGallery} ${s.gallery}`}>
                         <h2 className={s.galleryTitle}>Gallery</h2>
                         <div className={s.galleryItems}>
-                            <div className={s.galleryItem}>
-                                <img src={image1} alt=""/>
+                            <div className={`${s.galleryItem} ${s.galleryItemBig}`}>
+                                <img src={image4} alt=""/>
                             </div>
                             <div className={s.galleryItem}>
                                 <img src={image2} alt=""/>
@@ -67,13 +71,25 @@ export const Grid = () => {
                                 <img src={image3} alt=""/>
                             </div>
                             <div className={s.galleryItem}>
-                                <img src={image4} alt=""/>
+                                <img src={image1} alt=""/>
                             </div>
                             <div className={s.galleryItem}>
                                 <img src={image5} alt=""/>
                             </div>
                             <div className={s.galleryItem}>
+                                <img src={image7} alt=""/>
+                            </div><
+                            div className={s.galleryItem}>
+                                <img src={image8} alt=""/>
+                            </div>
+                            <div className={`${s.galleryItem} ${s.galleryItemBig}`}>
                                 <img src={image6} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image9} alt=""/>
+                            </div>
+                            <div className={s.galleryItem}>
+                                <img src={image10} alt=""/>
                             </div>
                         </div>
                     </section>

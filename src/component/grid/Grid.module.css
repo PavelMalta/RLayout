@@ -57,13 +57,19 @@
 .main {
     grid-area: main;
     padding: 30px 15px;
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 200px) minmax(auto, 700px) 1fr;
 }
 
 .sidebar {
-
+    grid-column: 2 / 3;
+    background-color: #333;
+    padding: 15px;
 }
 
 .content {
+    grid-column: 3 / 4;
+    padding: 0px 0px 0px 30px;
 
 }
 
@@ -72,12 +78,17 @@
 }
 
 .sidebarMenu {
+    list-style-type: none;
+}
 
+.sidebarMenu li {
+    margin-bottom: 15px;
 }
 
 .sidebarLink {
-
-}
+    color: #fdda01;
+    font-size: 20px;
+   }
 
 .contentTitle {
 

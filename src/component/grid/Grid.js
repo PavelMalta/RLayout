@@ -38,16 +38,16 @@ export const Grid = () => {
                     <nav className={s.sideMenu}>
                         <ul className={s.sidebarMenu}>
                             <li>
-                                <a href="" className={s.sidebarLink}></a>
+                                <a href="" className={s.sidebarLink}>Menu</a>
                             </li>
                             <li>
-                                <a href="" className={s.sidebarLink}></a>
+                                <a href="" className={s.sidebarLink}>Menu</a>
                             </li>
                             <li>
-                                <a href="" className={s.sidebarLink}></a>
+                                <a href="" className={s.sidebarLink}>Menu</a>
                             </li>
                             <li>
-                                <a href="" className={s.sidebarLink}></a>
+                                <a href="" className={s.sidebarLink}>Menu</a>
                             </li>
                         </ul>
                     </nav>
